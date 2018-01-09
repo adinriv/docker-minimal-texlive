@@ -22,3 +22,4 @@ RUN apt-get update -qq &&\
            /var/tmp/* \
            install-tl-unx.tar.gz
 
+WORKDIR /home
